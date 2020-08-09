@@ -1,10 +1,10 @@
 /*
-* Terraform configuration.
+* Terraform configuration. Rely on 0.12 syntax or higher, no support for earlier versions.
 */
 terraform {
+  required_version = ">= 0.12"
   experiments = [variable_validation]
 }
-
 
 /*
 * Set up some local variables.
