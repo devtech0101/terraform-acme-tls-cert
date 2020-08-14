@@ -12,7 +12,7 @@ The primary use of this is to use these certificates within other Terraform depl
 Use the Terraform module syntax to download the module code:
 ```hcl
 module "tls-cert" {
-  source = "github.com/hentsu/terraform-acme-tls-cert/tls-cert"
+  source = "github.com/hentsu/terraform-acme-tls-cert"
 }
 ```
 
@@ -21,7 +21,7 @@ Use Terragrunt to download the module code:
 ```hcl
 # Use Terragrunt to download the module code
 terraform {
-  source = "git::git@github.com/hentsu/terraform-acme-tls-cert.git//tls-cert"
+  source = "git::git@github.com/hentsu/terraform-acme-tls-cert.git"
 }
 
 # Fill in the variables for that module
@@ -32,7 +32,7 @@ inputs = {
 }
 ```
 
-When sourcing this module  provide the following inputs:
+When sourcing this module provide the following inputs:
 * acme_env
 * acme_version
 * email_address
