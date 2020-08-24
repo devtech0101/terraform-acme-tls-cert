@@ -1,4 +1,4 @@
-[![Maintained by Hentsu](https://img.shields.io/badge/maintained%20by-hentsu-%23FABA1E.svg)](https://hentsu.com/?ref=ghrepo_tf-module-acme-tls-cert)
+[![Maintained by Hentsu](https://img.shields.io/badge/maintained%20by-hentsu-%23FABA1E.svg)](https://hentsu.com/?ref=ghrepo_terraform-acme-tls-cert)
 
 # Terraform Module for Generating ACME Let's Encrypt TLS Certificates
 
